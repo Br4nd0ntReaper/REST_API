@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bg-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --bg-input: #fff;
+    --main-color: #264186;
+    --text-color:#fff;
+}
+
+.datos-dni{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.content {
+    background-image: url('img/Senati_Independencia.jpg');
+    background-size: 100% 100%; /* Ajusta la imagen al tamaño completo del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    padding: 355px; /* Espacio interno alrededor del contenido */
+    width: auto; /* Ancho del contenedor al 100% de la pantalla */
+    height: auto;
+}
+
+.container .title{
+    text-align: center;
+    color: var(--bg-input);
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: 'Lobster', cursive;
+}
+input{
+    margin-left: 10px;
+    font-size: 20px;
+    width: 450px;
+    outline: none;
+    border: none;
+    size: 50px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    border: solid 2px #264186;
+    border-radius: 5px;
+}
+.card{
+    font-weight: 800;
+    background-color: #264186;
+    border-radius: 15px;
+    width: 550px;
+    height: 300px;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin: 10px 25px;
+    margin-top: 15px;
+    width: 100px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 50px;
+    background-color: white;
+    padding: 30px;
+}
+i{
+    font-size: 50px;
+    color: #264186;
+}
+button{
+    font-size: 20px;
+    margin: 10px 0px;
+    margin-left: 85px;
+    border: #264186;
+    border-radius: 5px;
+    background-color: #264186;
+    color: #fff;
+    width: 400px;
+    height: 30px;
+    cursor: pointer;
+}
+p{
+    margin: 10px 20px;
+}
+.somosfuturo{
+    margin-top: 180px;
+    margin-left: -150px;
+    width: 150px;
+}
+.hora{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: -180px;
+}
+.fecha{
+    font-size: 18px;
+    margin-left: -110px;
+    margin-top: -90px;
+
+}
+b {
+    color: #264186;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.nom, .app, .apm, .pro, .doc{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-right: -20px;
+    font-weight: bold;
+    color: #fff;
+}
+.nom::placeholder, .app::placeholder, .apm::placeholder, .pro::placeholder, .doc::placeholder{
+    color: #fff;
+}
+footer {
+    background-color: #3d83ac; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 10px; /* Espaciado interno en el footer */
+    text-align: center;
+}
+
+.sen{
+    width: 450px;
+    height: 35px;
+}
